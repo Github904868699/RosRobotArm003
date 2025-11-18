@@ -1,0 +1,42 @@
+# Joint-level gains for the ROS1 MoveIt integration.
+# p_int/kp_int correspond to position-based integrator/feedback gains.
+# v_int/kd_int correspond to velocity integrator/feedback gains.
+# t_int specifies the motor torque limit.
+# Per user requirements: position gains are 0, velocity gains are 10, and torque limits are 10.
+joint_gains:
+  joint1:
+    p_int: 0
+    v_int: 10
+    kp_int: 0
+    kd_int: 10
+    t_int: 10
+  joint2:
+    p_int: 0
+    v_int: 10
+    kp_int: 0
+    kd_int: 10
+    t_int: 10
+  joint3:
+    p_int: 0
+    v_int: 10
+    kp_int: 0
+    kd_int: 10
+    t_int: 10
+  joint4:
+    p_int: 0
+    v_int: 10
+    kp_int: 0
+    kd_int: 10
+    t_int: 10
+  joint5:
+    p_int: 0
+    v_int: 10
+    kp_int: 0
+    kd_int: 10
+    t_int: 10
+  joint6:
+    p_int: 0
+    v_int: 10
+    kp_int: 0
+    kd_int: 10
+    t_int: 10
