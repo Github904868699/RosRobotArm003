@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rosrobotarm003_moveit_config</name>
+  <version>0.0.1</version>
+  <description>MoveIt configuration package containing the updated URDF and controller gains.</description>
+  <maintainer email="user@example.com">Auto Generated</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roslaunch</depend>
+</package>

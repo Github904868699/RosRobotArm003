@@ -1,0 +1,7 @@
+<launch>
+  <!-- Load the updated robot description into the ROS parameter server -->
+  <param name="robot_description" command="cat $(find rosrobotarm003_moveit_config)/urdf/robot.urdf" />
+
+  <!-- Load joint gain parameters for controllers/integration layers -->
+  <rosparam file="$(find rosrobotarm003_moveit_config)/config/joint_gains.yaml" command="load" />
+</launch>
